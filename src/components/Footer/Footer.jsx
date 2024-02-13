@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="big__container">
+      {/* <div className="big__container">
         <div className="containerChild">
           <div className="footer pt-20 ">
             <div className="lines">
@@ -58,7 +58,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 };
