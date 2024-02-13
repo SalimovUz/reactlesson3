@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
 .big__container {
   width: 100%;
   margin: 0 auto;
@@ -521,5 +532,125 @@ ul {
   .arrow {
     margin: auto;
     margin-top: 50px;
+  }
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  h1 {
+    color: rgb(21, 20, 20);
+    font-family: poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  p {
+    margin-top: 20px;
+    color: rgb(59, 67, 62);
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  form {
+    display: flex;
+    margin: auto;
+    label {
+      gap: 15px;
+      display: flex;
+
+      input {
+        width: 330px;
+        height: 60px;
+        box-sizing: border-box;
+        border: 1.5px solid rgb(245, 245, 245);
+        border-radius: 165px;
+        background: rgb(255, 255, 255);
+        outline: none;
+        padding: 0 20px;
+      }
+
+      input::placeholder {
+        color: rgb(138, 138, 138);
+        font-family: poppins;
+        font-size: 18px;
+        font-weight: 750;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+    }
+  }
+}
+
+.btn__offer {
+  border-radius: 50px;
+  width: 170px;
+  height: 60px;
+  color: rgb(255, 255, 255);
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    rgb(100, 187, 71),
+    rgb(44, 149, 83) 100%
+  ) !important;
+  /* background: #000 !important; */
+}
+
+/* .footer {
+} */
+
+.lines {
+  display: flex;
+  gap: 30px;
+
+  line {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    h1 {
+      color: rgb(44, 56, 71);
+      font-family: poppins;
+      font-size: 26px !important;
+      font-weight: 500;
+      line-height: 33px;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+
+    h2 {
+      color: rgb(44, 56, 71);
+      font-family: poppins;
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+
+    a {
+      color: rgb(101, 117, 130);
+      font-family: poppins;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0%;
+      text-align: left;
+    }
   }
 }
